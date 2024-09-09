@@ -1,0 +1,66 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Contact Form Using HTML-CSS</title>
+    <!-- Google Fonts CDN Link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="ContactUs.css" />
+  </head>
+  <link rel="stylesheet" href="ContactUs.css">
+  <body>
+    <div class="form-wrapper">
+      <h2>contact us</h2>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">name<span class="star">*</span></label>
+          <input
+            type="text"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="subject"
+            >subject&nbsp;<span class="optional">(optional)</span></label
+          >
+          <input
+            type="text"
+            id="subject"
+            class="form-control"
+            placeholder="Enter your subject"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">email<span class="star">*</span></label>
+          <input
+            type="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">message<span class="star">*</span></label>
+          <textarea
+            id="message"
+            class="form-control"
+            placeholder="Your message here..."
+            required
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <button class="submit-btn">send message</button>
+      </form>
+    </div>
+  </body>
+</html>

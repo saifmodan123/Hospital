@@ -1,0 +1,333 @@
+ <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .services-header {
+            text-align: center;
+            padding: 50px 0;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            border-radius: 10px;
+        }
+
+        .services-header h1 {
+            font-size: 48px;
+            margin: 0;
+            animation: fadeInDown 1s ease-in-out;
+        }
+
+        .service {
+            display: flex;
+            margin-bottom: 40px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transform: scale(1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .service:hover {
+            transform: scale(1.05);
+        }
+
+        .service img {
+            width: 40%;
+            object-fit: cover;
+        }
+
+        .service-content {
+            padding: 20px;
+        }
+
+        .service-content h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #00a2ff;
+        }
+
+        .service-content p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        @keyframes fadeInDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="services-header">
+        <h1>Our Services</h1>
+        <p>Dedicated to your health and well-being</p>
+    </div>
+
+    <div class="container">
+        <div class="service">
+            <img src="https://via.placeholder.com/400x300" alt="Cardiology">
+            <div class="service-content">
+                <h2>Cardiology</h2>
+                <p>Our Cardiology department provides comprehensive care for heart-related conditions. From diagnostics to advanced surgeries, our specialists ensure the best care with state-of-the-art technology.</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://via.placeholder.com/400x300" alt="Pediatrics">
+            <div class="service-content">
+                <h2>Pediatrics</h2>
+                <p>Our Pediatrics department offers specialized care for infants, children, and adolescents. We focus on preventive care, early diagnosis, and treatment to ensure the healthy development of your child.</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://via.placeholder.com/400x300" alt="Orthopedics">
+            <div class="service-content">
+                <h2>Orthopedics</h2>
+                <p>The Orthopedics department provides expert care for musculoskeletal issues. Whether it's sports injuries, joint replacements, or spine surgeries, we are equipped with the latest techniques to get you moving again.</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <img src="https://via.placeholder.com/400x300" alt="Neurology">
+            <div class="service-content">
+                <h2>Neurology</h2>
+                <p>Our Neurology department offers specialized treatment for neurological disorders, including stroke, epilepsy, and Parkinson's disease. Our team of experts is dedicated to improving the quality of life for our patients.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modan Hospital - Our Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .services-header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #00796b 0%, #48a999 100%);
+            color: white;
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .services-header h1 {
+            font-size: 50px;
+            margin: 0;
+            animation: slideIn 1s ease-in-out;
+        }
+
+        .services-header p {
+            font-size: 20px;
+            margin: 10px 0 0;
+        }
+
+        .service {
+            display: flex;
+            margin-bottom: 50px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transform: scale(1);
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .service:hover {
+            transform: scale(1.05);
+        }
+
+        .service img {
+            width: 40%;
+            object-fit: cover;
+        }
+
+        .service-content {
+            padding: 30px;
+            flex: 1;
+        }
+
+        .service-content h2 {
+            font-size: 32px;
+            margin-bottom: 15px;
+            color: #00796b;
+            position: relative;
+        }
+
+        .service-content h2::after {
+            content: '';
+            width: 50px;
+            height: 4px;
+            background-color: #00796b;
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+        }
+
+        .service-content p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+
+        @keyframes slideIn {
+            0% {
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #00796b;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: none;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .back-to-top:hover {
+            background-color: #004d40;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="services-header">
+        <h1>Our Services</h1>
+        <p>Comprehensive Healthcare Services at Modan Hospital</p>
+    </div>
+
+    <div class="container">
+        <div class="service" onclick="showServiceDetails('cardiology')">
+            <img src="https://static.vecteezy.com/system/resources/previews/006/878/392/non_2x/cardiology-concept-banner-wireframe-low-poly-style-red-heart-abstract-modern-3d-illustration-on-dark-blue-background-vector.jpg" alt="Cardiology">
+            <div class="service-content">
+                <h2>Cardiology</h2>
+                <p>Our Cardiology department provides top-notch care for all heart-related conditions. Our team is equipped with the latest technology to handle everything from diagnostics to complex surgeries.</p>
+            </div>
+        </div>
+
+        <div class="service" onclick="showServiceDetails('pediatrics')">
+            <img src="https://www.sakrapremiumclinic.com/sakraclinic-admin/assets/images/paediatrics-mob-banner.jpg" alt="Pediatrics">
+            <div class="service-content">
+                <h2>Pediatrics</h2>
+                <p>Modan Hospital's Pediatrics department is dedicated to the health and well-being of infants, children, and adolescents. We offer preventive care, early diagnosis, and personalized treatment plans.</p>
+            </div>
+        </div>
+
+        <div class="service" onclick="showServiceDetails('orthopedics')">
+            <img src="https://www.kneeandshoulder.net/img/Dr-nataraj-hm-logo-paaaa-min.png" alt="Orthopedics">
+            <div class="service-content">
+                <h2>Orthopedics</h2>
+                <p>Our Orthopedics department specializes in treating musculoskeletal issues. We provide care for everything from fractures and sports injuries to joint replacements and spine surgeries.</p>
+            </div>
+        </div>
+
+        <div class="service" onclick="showServiceDetails('neurology')">
+            <img src="https://s.tmimgcdn.com/scr/1200x627/113500/neurology-logo-template_113589-original.jpg" alt="Neurology">
+            <div class="service-content">
+                <h2>Neurology</h2>
+                <p>The Neurology department at Modan Hospital offers expert care for neurological disorders such as stroke, epilepsy, and Parkinson's disease, utilizing advanced treatment methods.</p>
+            </div>
+        </div>
+
+        <div class="service" onclick="showServiceDetails('oncology')">
+            <img src="https://acko-cms.ackoassets.com/Oncology_fd77fd8696.png" alt="Oncology">
+            <div class="service-content">
+                <h2>Oncology</h2>
+                <p>Our Oncology department provides comprehensive cancer care, including early detection, personalized treatment plans, and supportive care to help patients through every stage of their journey.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="back-to-top" onclick="scrollToTop()">Back to Top</div>
+
+    <script>
+
+
+        window.onscroll = function() {
+            var backToTopButton = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+</body>
+</html>

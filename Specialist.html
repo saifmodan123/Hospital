@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Specialists - Modan Hospital</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Header Section */
+        header {
+            background-color: #1E90FF;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Section Container */
+        section {
+            margin: 120px auto;
+            padding: 20px;
+            max-width: 1200px;
+        }
+        
+        h1 {
+            font-size: 36px;
+            color: #333;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        /* Grid Layout for Specialists */
+        .specialists-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        /* Individual Specialist Card */
+        .specialist-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .specialist-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        
+        .specialist-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        
+        .specialist-info {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .specialist-info h2 {
+            font-size: 24px;
+            color: #1E90FF;
+            margin-bottom: 10px;
+        }
+        
+        .specialist-info p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        /* Cool button animation */
+        .more-info-btn {
+            padding: 10px 20px;
+            border: none;
+            background-color: #1E90FF;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .more-info-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Our Specialists at Modan Hospital</h1>
+</header>
+
+<section>
+    <h1>Meet Our Experts</h1>
+    <div class="specialists-grid">
+        <!-- Specialist Card 1 -->
+        <div class="specialist-card">
+            <img src="https://drsaurabhtiwari.com/wp-content/uploads/2018/05/Sarah-Johnson-full-image.jpg">
+            <div class="specialist-info">
+                <h2>Dr. Sarah Johnson</h2>
+                <p>Cardiologist with 15+ years of experience in treating complex heart conditions.</p>
+                <button class="more-info-btn">More Info</button>
+            </div>
+        </div>
+        
+        <!-- Specialist Card 2 -->
+        <div class="specialist-card">
+            <img src="https://doximity-res.cloudinary.com/images/f_auto,q_auto,t_profile_photo_320x320/w8gvhfkgigy3fhht4fwg/john-doe-md-san-francisco-ca.jpg" alt="Dr. John Doe">
+            <div class="specialist-info">
+                <h2>Dr. John Doe</h2>
+                <p>Neurologist specializing in neurodegenerative disorders and brain surgeries.</p>
+                <button class="more-info-btn">More Info</button>
+            </div>
+        </div>
+        
+        <!-- Specialist Card 3 -->
+        <div class="specialist-card">
+            <img src="https://www.ckbhospital.com/wp-content/uploads/2020/11/Dr.-Rajiv-2-scaled.jpg" alt="Dr.Rajiv">
+            <div class="specialist-info">
+                <h2>Dr. Rajiv</h2>
+                <p>Pediatrician with a focus on child development and preventive care.</p>
+                <button class="more-info-btn">More Info</button>
+            </div>
+        </div>
+        
+        <!-- Specialist Card 4 -->
+        <div class="specialist-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWYIkiZPegCaYKWG4GmyxjfpD3iSftZ9Z_mg&s" alt="Dr. Sarah Johnson" alt="Dr. Michael Brown">
+            <div class="specialist-info">
+                <h2>Dr. Michael Brown</h2>
+                <p>Orthopedic Surgeon renowned for his expertise in sports injuries and joint replacement.</p>
+                <button class="more-info-btn">More Info</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
